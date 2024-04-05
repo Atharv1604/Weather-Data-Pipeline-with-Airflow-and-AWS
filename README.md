@@ -13,8 +13,11 @@ Storage: The transformed data was then stored in an AWS S3 bucket. S3 is a highl
 
 Automation with Airflow: To tie everything together and make the process fully automated, I created Directed Acyclic Graphs (DAGs) in Apache Airflow. Airflow is a platform to programmatically author, schedule, and monitor workflows. The DAGs I designed orchestrated the entire process: triggering the data extraction from OpenWeather API, running the Python transformations, and finally, storing the processed data in the S3 bucket.
 
-![photo_2024-04-05_11-12-34](https://github.com/Atharv1604/Weather-Data-Pipeline-with-Airflow-and-AWS/assets/78715129/71804310-702f-46c4-9e38-f18a6d0fb42a)
+AIRFLOW Workflow Screenshot
 
+![photo_2024-04-05_11-14-10](https://github.com/Atharv1604/Weather-Data-Pipeline-with-Airflow-and-AWS/assets/78715129/f4c6bae4-bb72-4420-8f32-a4c7ce8c3c68)
+
+AWS S3 Bucket Screenshot
 ![photo_2024-04-05_11-14-50](https://github.com/Atharv1604/Weather-Data-Pipeline-with-Airflow-and-AWS/assets/78715129/0bfca65e-6d6c-4e59-8c2d-3ad081b4e93e)
 
 So, in essence, this project showcased the integration of various technologies to create an end-to-end automated data pipeline. We leveraged the OpenWeather API for data, Python for transformations, AWS S3 for storage, and Apache Airflow for workflow orchestration. This not only streamlined the process but also ensured reliability and scalability for handling weather data effectively.
