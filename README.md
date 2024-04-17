@@ -6,6 +6,7 @@ The main goal was to automate the extraction, transformation, and storage of wea
 Extraction: I began by pulling weather data from the OpenWeather API. This API provides a wealth of information such as temperature, humidity, wind speed, and more. I used this data as a source for our project.
 
 OpenWeatherMapAPI Link :- https://openweathermap.org/current
+
 OpenWeatherMapAPI Call :- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 ![image](https://github.com/Atharv1604/Weather-Data-Pipeline-with-Airflow-and-AWS/assets/78715129/b96ec617-dc19-4a13-9e58-4c5cae075df4)
 
