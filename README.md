@@ -8,6 +8,7 @@ Extraction: I began by pulling weather data from the OpenWeather API. This API p
 OpenWeatherMapAPI Link :- https://openweathermap.org/current
 
 OpenWeatherMapAPI Call :- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
 ![image](https://github.com/Atharv1604/Weather-Data-Pipeline-with-Airflow-and-AWS/assets/78715129/b96ec617-dc19-4a13-9e58-4c5cae075df4)
 
 Transformation: Once we had the raw data, I utilized Python to transform it according to our project's requirements. This could involve cleaning up the data, calculating additional metrics, or any other necessary manipulations to get it in the desired format.
